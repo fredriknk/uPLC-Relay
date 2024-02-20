@@ -10,7 +10,7 @@ Thanks to [u/PricelessToolkit/ESPClicker](https://github.com/PricelessToolkit/ES
 [Schematic](./DOCUMENTATION/_schematic.pdf)
 
 
-[Assembly IBOM](https://htmlpreview.github.io/?https://raw.githubusercontent.com/fredriknk/esprelay/main/DOCUMENTATION/ibom.html)
+[Assembly IBOM](https://htmlpreview.github.io/?https://raw.githubusercontent.com/fredriknk/uplc/main/DOCUMENTATION/ibom.html)
 
 ## Specifications
 | **Parameter**   | **Description**                                                     |
