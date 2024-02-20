@@ -5,7 +5,7 @@ ESP micro PLC the size of a post stamp. Hopefully this will be the start of a se
 
 The uPLC-relay version  has two small signal relay module utilizing an [ESP-32-C3](./DOCUMENTATION/esp-12f_product_specification_en.pdf) wifi, bluetooth module for communication and MCU, and has two 2.5-25V inputs, two 25v, 100/50ma high speed open drain output through a [TBD062003](./DOCUMENTATION/2304140030_TOSHIBA-TBD62003AFWG_C114084.pdf) DMOS transistor array ic. And two relay outputs are capable of driving around 25V 500ma. 
 
-Thanks to [u/PricelessToolkit/ESPClicker](https://github.com/PricelessToolkit/ESPClicker) for inspiration. If you need a ready to use product you should so head over to his [store](https://www.pricelesstoolkit.com/en/projects/32-espclicker-0741049314405.html) and buy his version.
+Thanks to [u/PricelessToolkit/ESPClicker](https://github.com/PricelessToolkit/ESPClicker) for inspiration.
 
 [Schematic](./DOCUMENTATION/_schematic.pdf)
 
