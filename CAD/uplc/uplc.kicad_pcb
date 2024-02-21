@@ -327,9 +327,9 @@
     (pad "12" smd roundrect (at 6.875 -1.85 90) (size 0.6 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "+VDC") (pinfunction "Pin_12") (pintype "passive") (tstamp fee3166c-a932-4036-b088-5e32825582ee))
     (pad "MP" smd roundrect (at -8.725 1.35 90) (size 1 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 2 "GND") (pinfunction "Pin_13") (pintype "passive") (tstamp 03ab8629-7633-4e15-8e46-53f8b0fb1661))
+      (net 2 "GND") (pinfunction "Pin_14") (pintype "passive") (tstamp 03ab8629-7633-4e15-8e46-53f8b0fb1661))
     (pad "MP" smd roundrect (at 8.725 1.35 90) (size 1 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 2 "GND") (pinfunction "Pin_13") (pintype "passive") (tstamp fafb2985-7f53-4802-ae3d-df103e347ff5))
+      (net 2 "GND") (pinfunction "Pin_14") (pintype "passive") (tstamp fafb2985-7f53-4802-ae3d-df103e347ff5))
     (model "${KICAD7_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_SM12B-GHS-TB_1x12-1MP_P1.25mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2285,7 +2285,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ab92f112-915e-43e3-83f7-04a33557933e)
     )
-    (fp_text value "32.568khz" (at 0 2 90) (layer "F.Fab") hide
+    (fp_text value "32.568khz 3.2x1.5 12.5pf" (at 0 2 90) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e94c9626-eaff-4afb-863a-d3e16779342c)
     )
@@ -5814,6 +5814,7 @@
     (at 113.1 82.5 -90)
     (descr "ESP32-C3-WROOM-02: https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf")
     (tags "ESP32-C3")
+    (property "LCSC Part #" "C2934560")
     (property "Sheetfile" "uplc.kicad_sch")
     (property "Sheetname" "")
     (property "TEST" "")
