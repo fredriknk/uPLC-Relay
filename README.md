@@ -3,7 +3,7 @@
 
 ESP micro PLC the size of a post stamp. Hopefully this will be the start of a series of a mesh capable miniature programmable logic controllers.
 
-The uPLC-relay version  has two small signal relay module utilizing an [ESP-32-C3](./DOCUMENTATION/esp-12f_product_specification_en.pdf) wifi, bluetooth module for communication and MCU, and has two 2.5-25V inputs, two 25v, 100/50ma high speed open drain output through a [TBD062003](./DOCUMENTATION/2304140030_TOSHIBA-TBD62003AFWG_C114084.pdf) DMOS transistor array ic. And two relay outputs are capable of driving around 25V 500ma. 
+The uPLC-relay version  has two small signal relay module utilizing an [ESP-32-C3](./DOCUMENTATION/esp-12f_product_specification_en.pdf) wifi, bluetooth module for communication and MCU, it has a 0-24V buck regulator, has two 2.5-25V inputs, two 25v, 100/50ma high speed open drain output through a [TBD062003](./DOCUMENTATION/2304140030_TOSHIBA-TBD62003AFWG_C114084.pdf) DMOS transistor array ic. And two relay outputs are capable of driving around 25V 500ma. 
 
 Thanks to [u/PricelessToolkit/ESPClicker](https://github.com/PricelessToolkit/ESPClicker) for inspiration.
 
@@ -15,7 +15,7 @@ Thanks to [u/PricelessToolkit/ESPClicker](https://github.com/PricelessToolkit/ES
 ## Specifications
 | **Parameter**   | **Description**                                                     |
 |-----------------|---------------------------------------------------------------------|
-| _Input voltage_ | 3.7-24v                               |
+| _Input voltage_ | 3.8-24v                               |
 | _Current_       | TBD Wifi: ##mA, Radio Off: ##mA, Deep sleep ##uA |  
 | _Communication_ | 2.4ghz WIFI, Uart TTL                            |
 | _Baudrate_      | 115200                                                              |
