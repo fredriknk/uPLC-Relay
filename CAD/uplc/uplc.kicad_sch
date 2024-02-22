@@ -7,7 +7,7 @@
   (title_block
     (title "ESPRelay")
     (date "2023-11-30")
-    (rev "1.1.0")
+    (rev "1.2.0")
     (company "Drawn by FNB")
     (comment 1 "Thanks to https://github.com/PricelessToolkit/ESPClicker for inspiration")
   )
@@ -3439,8 +3439,8 @@
     (pin "7" (uuid f1af78da-25ce-4f3b-819a-7ae7001c36a6))
     (pin "8" (uuid c7e3b8e6-c703-4972-b1d8-cfe07ef1be49))
     (pin "9" (uuid df7c23fc-95cd-4d50-9e7e-a5e22ab93973))
-    (pin "MP" (uuid 1ee1b73c-7659-4b4f-9b54-e9394e1a9959))
-    (pin "MP" (uuid 1ee1b73c-7659-4b4f-9b54-e9394e1a9959))
+    (pin "MP" (uuid 1ee1b73c-7659-4b4f-9b54-e9394e1a995a))
+    (pin "MP" (uuid 1ee1b73c-7659-4b4f-9b54-e9394e1a995a))
     (instances
       (project "uplc"
         (path "/51bbc301-ea4a-44e0-84a7-cf42c64443ca"

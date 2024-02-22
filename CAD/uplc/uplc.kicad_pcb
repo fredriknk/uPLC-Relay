@@ -8,7 +8,7 @@
   (title_block
     (title "uPLC_Relay")
     (date "2024-02-20")
-    (rev "v1.1")
+    (rev "v1.2")
   )
 
   (layers
@@ -496,9 +496,9 @@
     (pad "12" smd roundrect (at 6.875 -1.85 90) (size 0.6 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "+VDC") (pinfunction "Pin_12") (pintype "passive") (tstamp fee3166c-a932-4036-b088-5e32825582ee))
     (pad "MP" smd roundrect (at -8.725 1.35 90) (size 1 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 2 "GND") (pinfunction "Pin_13") (pintype "passive") (tstamp 03ab8629-7633-4e15-8e46-53f8b0fb1661))
+      (net 2 "GND") (pinfunction "Pin_14") (pintype "passive") (tstamp 03ab8629-7633-4e15-8e46-53f8b0fb1661))
     (pad "MP" smd roundrect (at 8.725 1.35 90) (size 1 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 2 "GND") (pinfunction "Pin_13") (pintype "passive") (tstamp fafb2985-7f53-4802-ae3d-df103e347ff5))
+      (net 2 "GND") (pinfunction "Pin_14") (pintype "passive") (tstamp fafb2985-7f53-4802-ae3d-df103e347ff5))
     (model "${KICAD7_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_SM12B-GHS-TB_1x12-1MP_P1.25mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -2685,11 +2685,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiTGVmdCIsICJDYXBMZWZ0Q2hvaWNlIjogIjwiLCAiQ2FwUmlnaHRDaG9pY2UiOiAiXSIsICJGb250Q29tYm9Cb3giOiAiQmVya2VsZXlNb25vLUJvbGQiLCAiSGVpZ2h0Q3RybCI6ICIxIiwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJNdWx0aUxpbmVUZXh0IjogIkJPVCIsICJQYWRkaW5nQm90dG9tQ3RybCI6ICIxIiwgIlBhZGRpbmdMZWZ0Q3RybCI6ICIxIiwgIlBhZGRpbmdSaWdodEN0cmwiOiAiMSIsICJQYWRkaW5nVG9wQ3RybCI6ICIxIiwgIldpZHRoQ3RybCI6ICIyLjcifQ==")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-65D7176D" (at 0 3.668977 180) (layer "B.SilkS") hide
-        (effects (font (size 0 0)) (justify mirror))
+        (effects (font (size 0 0) (thickness 0.15)) (justify mirror))
       (tstamp 0a9df75f-c8ac-425f-b2e6-6f7ec1b104a3)
     )
     (fp_text value "G***" (at 0 -3.668977 180) (layer "B.SilkS") hide
-        (effects (font (size 0 0)) (justify mirror))
+        (effects (font (size 0 0) (thickness 0.15)) (justify mirror))
       (tstamp 88b84469-6632-4a59-8fec-f56eb86c8775)
     )
     (fp_poly
@@ -3019,11 +3019,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiUmlnaHQiLCAiQ2FwTGVmdENob2ljZSI6ICI8IiwgIkNhcFJpZ2h0Q2hvaWNlIjogIl0iLCAiRm9udENvbWJvQm94IjogIkJlcmtlbGV5TW9uby1Cb2xkIiwgIkhlaWdodEN0cmwiOiAiMSIsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTXVsdGlMaW5lVGV4dCI6ICJHTkQiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAiMSIsICJQYWRkaW5nTGVmdEN0cmwiOiAiMSIsICJQYWRkaW5nUmlnaHRDdHJsIjogIjEiLCAiUGFkZGluZ1RvcEN0cmwiOiAiMSIsICJXaWR0aEN0cmwiOiAiMiJ9")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-65D7177B" (at 0 3.668977 180) (layer "B.SilkS") hide
-        (effects (font (size 0 0)) (justify mirror))
+        (effects (font (size 0 0) (thickness 0.15)) (justify mirror))
       (tstamp 357d1863-f0a4-4214-8347-80c192a8176f)
     )
     (fp_text value "G***" (at 0 -3.668977 180) (layer "B.SilkS") hide
-        (effects (font (size 0 0)) (justify mirror))
+        (effects (font (size 0 0) (thickness 0.15)) (justify mirror))
       (tstamp 99d4ca18-6671-46f1-aecb-c657a0f2cb9e)
     )
     (fp_poly
@@ -5594,11 +5594,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiTGVmdCIsICJDYXBMZWZ0Q2hvaWNlIjogIjwiLCAiQ2FwUmlnaHRDaG9pY2UiOiAiXSIsICJGb250Q29tYm9Cb3giOiAiQmVya2VsZXlNb25vLUJvbGQiLCAiSGVpZ2h0Q3RybCI6ICIxIiwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJNdWx0aUxpbmVUZXh0IjogIlZDQyIsICJQYWRkaW5nQm90dG9tQ3RybCI6ICIxIiwgIlBhZGRpbmdMZWZ0Q3RybCI6ICIxIiwgIlBhZGRpbmdSaWdodEN0cmwiOiAiMSIsICJQYWRkaW5nVG9wQ3RybCI6ICIxIiwgIldpZHRoQ3RybCI6ICIyLjcifQ==")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-65D71774" (at 0 3.668977 180) (layer "B.SilkS") hide
-        (effects (font (size 0 0)) (justify mirror))
+        (effects (font (size 0 0) (thickness 0.15)) (justify mirror))
       (tstamp a03aa817-a267-4ae5-af71-b9e887ff2616)
     )
     (fp_text value "G***" (at 0 -3.668977 180) (layer "B.SilkS") hide
-        (effects (font (size 0 0)) (justify mirror))
+        (effects (font (size 0 0) (thickness 0.15)) (justify mirror))
       (tstamp 311600f4-a42b-494c-b3fd-0bd28b715c00)
     )
     (fp_poly
