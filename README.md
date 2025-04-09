@@ -1,7 +1,7 @@
 ﻿# μPLC-Relay
 ### Pcbway Sponsorship
 
-Thanks so much to PCBWay who offered to assemble my first prototype batch of the uPLC-relay modules. They deliver awesome quality as allways, see the result for yourself below.
+Thanks so much to PCBWay who offered to assemble my first prototype batch of all three uPLC modules. They deliver awesome quality as always, see the result for yourself below.
 
 ![Front](./PICTURES/uplc_relay.png)
 
