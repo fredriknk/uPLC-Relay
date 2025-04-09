@@ -1,9 +1,11 @@
-﻿# μPLC -_WORK IN PROGRESS-UNTESTED_-
-![Front](./PICTURES/TOP.PNG)
+﻿# μPLC-Relay
+### Pcbway Sponsorship
+Thanks so much to [PCBWay](https://www.pcbway.com/) who offered to assemble my first prototype batch of all three [uPLC modules](https://github.com/fredriknk/uPLC-stack). They deliver awesome quality as always, see the result for yourself below.
+![Front](./PICTURES/uplc_relay.png)
 
-ESP micro PLC the size of a post stamp. Hopefully this will be the start of a series of a mesh capable miniature programmable logic controllers.
+ I now have two prototypes of the uPLC-Relay so ESP-Home integrations will come soon.
 
-The uPLC-relay version  has two small signal relay module utilizing an [ESP-32-C3](./DOCUMENTATION/esp-12f_product_specification_en.pdf) wifi, bluetooth module for communication and MCU, it has a 0-24V buck regulator, has two 2.5-25V inputs, two 25v, 100/50ma high speed open drain output through a [TBD062003](./DOCUMENTATION/2304140030_TOSHIBA-TBD62003AFWG_C114084.pdf) DMOS transistor array ic. And two relay outputs are capable of driving around 25V 500ma. 
+ESP micro PLC the size of a post stamp. he uPLC-relay version  has two small signal relay module utilizing an [ESP-32-C3](./DOCUMENTATION/esp-12f_product_specification_en.pdf) wifi, bluetooth module for communication and MCU, it has a 0-24V buck regulator, has two 2.5-25V inputs, two 25v, 100/50ma high speed open drain output through a [TBD062003](./DOCUMENTATION/2304140030_TOSHIBA-TBD62003AFWG_C114084.pdf) DMOS transistor array ic. And two relay outputs are capable of driving around 25V 500ma. 
 
 Thanks to [u/PricelessToolkit/ESPClicker](https://github.com/PricelessToolkit/ESPClicker) for inspiration.
 
@@ -19,7 +21,7 @@ Thanks to [u/PricelessToolkit/ESPClicker](https://github.com/PricelessToolkit/ES
 | _Current_       | TBD Wifi: ##mA, Radio Off: ##mA, Deep sleep ##uA |  
 | _Communication_ | 2.4ghz WIFI, Uart TTL                            |
 | _Baudrate_      | 115200                                                              |
-| _PCB size_      | 21x31.1mm                                                             |
+| _PCB size_      | 22x31.1mm                                                             |
 | _PCB info_      | 1.6mm FR4, HASL lead free, 4 layer               |
 | _Case size_     | XxXxXmm TBD                                                         |
 
@@ -41,9 +43,12 @@ Thanks to [u/PricelessToolkit/ESPClicker](https://github.com/PricelessToolkit/ES
 |_GND_ | GND |  Ground  |
 
 ## PCB Pictures
-![Front](./PICTURES/OTOP.PNG)
-![Side](./PICTURES/OLEFT.png)
-![Back](./PICTURES/OBOT.PNG)
+PCB assembly by [PCBWay](https://www.pcbway.com/)
+![Cable1](./PICTURES/u-plc-relay-cable-bottom.JPEG)
+![Cable2](./PICTURES/u-plc-relay-cable-top.JPEG)
+![Top](./PICTURES/IMG_0642.JPEG)
+![Bottom](./PICTURES/IMG_0643.JPEG)
+
 
 ## Homeassistant Implementation
 TODO
