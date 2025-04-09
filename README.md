@@ -45,9 +45,11 @@ Thanks to [u/PricelessToolkit/ESPClicker](https://github.com/PricelessToolkit/ES
 |_GND_ | GND |  Ground  |
 
 ## PCB Pictures
-![Front](./PICTURES/OTOP.PNG)
-![Side](./PICTURES/OLEFT.png)
-![Back](./PICTURES/OBOT.PNG)
+![Cable1](./PICTURES/u-plc-relay-cable-bottom.JPEG)
+![Cable2](./PICTURES/u-plc-relay-cable-top.JPEG)
+![Top](./PICTURES/IMG_0642.JPEG)
+![Bottom](./PICTURES/IMG_0643.JPEG)
+
 
 ## Homeassistant Implementation
 TODO
