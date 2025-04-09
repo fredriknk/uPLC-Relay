@@ -1,9 +1,13 @@
-﻿# μPLC -_WORK IN PROGRESS-UNTESTED_-
-![Front](./PICTURES/TOP.PNG)
+﻿# μPLC-Relay
+### Pcbway Sponsorship
 
-ESP micro PLC the size of a post stamp. Hopefully this will be the start of a series of a mesh capable miniature programmable logic controllers.
+Thanks so much to PCBWay who offered to assemble my first prototype batch of the uPLC-relay modules. They deliver awesome quality as allways, see the result for yourself below.
 
-The uPLC-relay version  has two small signal relay module utilizing an [ESP-32-C3](./DOCUMENTATION/esp-12f_product_specification_en.pdf) wifi, bluetooth module for communication and MCU, it has a 0-24V buck regulator, has two 2.5-25V inputs, two 25v, 100/50ma high speed open drain output through a [TBD062003](./DOCUMENTATION/2304140030_TOSHIBA-TBD62003AFWG_C114084.pdf) DMOS transistor array ic. And two relay outputs are capable of driving around 25V 500ma. 
+![Front](./PICTURES/uplc_relay.png)
+
+ I now have two prototypes so ESP-Home integrations will come soon.
+
+ESP micro PLC the size of a post stamp. he uPLC-relay version  has two small signal relay module utilizing an [ESP-32-C3](./DOCUMENTATION/esp-12f_product_specification_en.pdf) wifi, bluetooth module for communication and MCU, it has a 0-24V buck regulator, has two 2.5-25V inputs, two 25v, 100/50ma high speed open drain output through a [TBD062003](./DOCUMENTATION/2304140030_TOSHIBA-TBD62003AFWG_C114084.pdf) DMOS transistor array ic. And two relay outputs are capable of driving around 25V 500ma. 
 
 Thanks to [u/PricelessToolkit/ESPClicker](https://github.com/PricelessToolkit/ESPClicker) for inspiration.
 
@@ -19,7 +23,7 @@ Thanks to [u/PricelessToolkit/ESPClicker](https://github.com/PricelessToolkit/ES
 | _Current_       | TBD Wifi: ##mA, Radio Off: ##mA, Deep sleep ##uA |  
 | _Communication_ | 2.4ghz WIFI, Uart TTL                            |
 | _Baudrate_      | 115200                                                              |
-| _PCB size_      | 21x31.1mm                                                             |
+| _PCB size_      | 22x31.1mm                                                             |
 | _PCB info_      | 1.6mm FR4, HASL lead free, 4 layer               |
 | _Case size_     | XxXxXmm TBD                                                         |
 
